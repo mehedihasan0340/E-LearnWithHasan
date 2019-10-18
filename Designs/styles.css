@@ -1,5 +1,7 @@
 * {
     box-sizing: border-box;
+    margin: 0px;
+    position: relative;
 }
 
 body {
@@ -12,7 +14,7 @@ body {
 .topnav {
     overflow: hidden;
     background: lightgray;
-    position: absolute;
+    position: fixed;
     width: 100%;
 }
 
@@ -43,6 +45,7 @@ body {
     margin-top: 8px;
     font-size: 17px;
     font-family: 'Courier New', Courier, monospace;
+
 }
 
 .topnav .search-container button {
@@ -59,3 +62,23 @@ body {
     background: gray;
   }
   
+.webName {
+      background: ivory;
+      text-align: center;
+      cursor: pointer;
+}
+.webName a {
+    text-decoration: none;
+}
+.webName i {
+    color: orange;
+    
+}
+.webName strong {
+    color: green;
+    text-transform: uppercase;
+}
+.webName b {
+    color: hotpink;
+    text-transform: lowercase;
+}
