@@ -16,6 +16,7 @@ body {
     background: lightgray;
     position: fixed;
     width: 100%;
+    margin-top: 5px;
 }
 
 .topnav a {
@@ -66,8 +67,14 @@ body {
       background: ivory;
       text-align: center;
       cursor: pointer;
+      width: 100%;
+      padding: 5px;
+      position: fixed;
 }
-.webName a {
+.webName:hover {
+    background: lightyellow;
+}
+.webName #home {
     text-decoration: none;
 }
 .webName i {
